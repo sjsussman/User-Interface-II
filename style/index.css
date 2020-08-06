@@ -1,1 +1,181 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*css reset ends here */
+
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+  }
+
+  body{
+      font-size: 1.6 rem;
+      line-height: 1.5;
+      overflow-x: hidden;
+  }
+
+html {
+font-size: 62.5%
+}
+
+.header{
+    height: 20%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: black;
+}
+
+#headername {
+ margin: 0 5%;
+ font-size: 3.9rem;
+ border: 1px solid black;
+ font-family: 'Recursive', sans-serif;
+ color:white;
+
+}
+
+.topnav {
+width: 30%;
+margin: 0;
+padding: 2%;
+font-size: 1.5rem;
+text-align: center;
+}
+
+.about {
+    border: 3px solid gray;
+    padding: 2% 5%;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+}
+
+.contact {
+    border: 3px solid gray;
+    padding: 2% 5%;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+}
+
+.projects {
+    border: 3px solid gray;
+    padding: 2% 5%;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+}
+
+#mainproj h1 {
+
+    margin: 5% auto;
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    border: 1px solid black;
+    width: 75%;
+    font-family: 'Recursive', sans-serif;
+    background-image: url(/assets/kobu-agency-67L18R4tW_w-unsplash.jpg);
+    background-size: 1000%;
+
+}
+/* sets the boxes to visually flex */
+.miniproj .proj {
+width: 300px;
+height: 300px;
+border: 1px solid black;
+margin: 5% 0;
+}
+
+.miniproj {
+width: 100%;
+height: 100%;
+display: flex;
+flex-flow: wrap;
+justify-content: space-around;
+}
+
+.break{
+    flex-basis: 100%;
+    height: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    padding: 2.5%;
+}
+
+.contactbottom {
+    border: 3px solid gray;
+    padding: 1% 2%;
+    width: 12%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+    color:gray;
+    text-decoration: none;
+    display:flex;
+    font-size: 2rem;
+    color: black;
+
+}
+
+/* couldnt get unniversal to put borders on everything
+why does .contactbottom need display:flex
+*/
