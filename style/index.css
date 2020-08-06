@@ -119,21 +119,65 @@ text-align: center;
     text-decoration: none;
 }
 
-#mainproj h1 {
-
+/* how to set height of this */
+.mainproj {
     margin: 5% auto;
-    padding: 20%;
+    padding: 5% 5%;
     display: flex;
     justify-content: center;
-    font-size: 3rem;
-    border: 1px solid black;
-    width: 75%;
-    font-family: 'Recursive', sans-serif;
+    width: 70%;
     background-image: url(/assets/kobu-agency-67L18R4tW_w-unsplash.jpg);
     background-size: 1000%;
-
 }
-/* sets the boxes to visually flex */
+
+.mainproj h1 {
+
+font-family: 'Recursive', sans-serif;
+font-size: 5rem;
+margin: 5% 0;
+text-align: center;
+}
+
+.mainproj .intro {
+ font-size: 3rem;
+}
+
+.mainproj .outro {
+    font-size: 3rem;
+   }
+
+.mainproj p {
+    font-family: 'Recursive', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/*how to center button without margin*/
+.projbutton{
+    border: 1px solid gray;
+    margin-left: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 3% 3%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+.miniproj {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    }
+
+    
+    /* why cant this be .miniproj div{} */
 .miniproj .proj {
 width: 300px;
 height: 300px;
@@ -141,13 +185,8 @@ border: 1px solid black;
 margin: 5% 0;
 }
 
-.miniproj {
-width: 100%;
-height: 100%;
-display: flex;
-flex-flow: wrap;
-justify-content: space-around;
-}
+
+
 
 .break{
     flex-basis: 100%;
@@ -167,15 +206,15 @@ justify-content: space-around;
     width: 12%;
     margin: 0 auto;
     border-radius: 10px;
-    background-color: white;
-    color:gray;
+    background-color: black;
     text-decoration: none;
     display:flex;
     font-size: 2rem;
-    color: black;
+    color: white;
 
 }
 
-/* couldnt get unniversal to put borders on everything
-why does .contactbottom need display:flex
+/* why does .contactbottom need display:flex
+
+vsc periodically run "git fetch"?
 */
