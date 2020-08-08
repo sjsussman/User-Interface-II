@@ -93,6 +93,17 @@ text-align: center;
 }
 .topnav a:hover {
 color: crimson;
+animation-name: spin !important;
+animation-duration: 1s !important;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 
 .about {
@@ -277,7 +288,7 @@ margin: 5% 0;
     color: crimson;
 }
 
-.linkcontainer nav a:hover {
+nav a:hover {
     animation-name: spin;
     animation-duration: 1s;
 }
