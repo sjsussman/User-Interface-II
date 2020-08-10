@@ -150,7 +150,7 @@ animation-duration: 1s !important;
     background-size: 1000%;
 }
 
-.mainproj h1 {
+.mainproj h2 {
 
 font-family: 'Recursive', sans-serif;
 font-size: 5rem;
@@ -172,8 +172,6 @@ text-align: center;
     text-align: center;
 }
 
-
-/*how to center button without margin*/
 .projbutton{
     border: 1px solid gray;
     margin: 10% auto;
@@ -241,7 +239,6 @@ margin: 5% 0;
     text-decoration: none;
     font-size: 2.4rem;
     color: white;
-    margin: 1% 0;
     margin-left: 19%;
 }
 
@@ -323,7 +320,7 @@ nav a:hover {
     .about, .projects, .contact {
         margin: 2%;
     }
-    .mainproj h1 {
+    .mainproj h2 {
     font-size: 3rem;
     margin: 10% 0;
     text-align: center;
@@ -372,7 +369,6 @@ nav a:hover {
         background-color: black;
         padding: 3%;
         align-items: center;
-        /* align-content: center; */
        
     }
    
